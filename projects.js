@@ -4,7 +4,7 @@ function getRandomColors() {
     let letters = "123456789ACDEF";
     let color = "#";
     for (let i = 0; i < 6; i++) {
-        color += letters[Math.Floor(Muth.random() * 16)]
+        color += letters[Math.Floor(Math.random() * 16)]
     };
     return color;
 }
